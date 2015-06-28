@@ -134,11 +134,11 @@ section:nth-child(odd) {
   visibility:hidden;
 }
 
-div:hover .desc {
+span:hover .desc {
   visibility:visible;
 }
-div.img img {max-width:100%;}
-div.img{
+span.img img {max-width:100%;}
+span.img{
   margin: 155px 5px 0px 0px;
   padding:5px;
   box-sizing:border-box;
@@ -154,8 +154,8 @@ div.img{
   transition:all 0.5s ease;
   border-radius:4px;
 } 
-div:hover{line-height:30px;font-size:16px;}
-div.img img
+span:hover{line-height:30px;font-size:16px;}
+span.img img
 {
   display: inline-block;
   margin: 3px;
