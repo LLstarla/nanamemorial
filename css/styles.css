@@ -6,6 +6,15 @@ img {
 	margin: auto;
 }
 
+.biopic {
+	border-radius: 35%;
+	width: 270px;
+	float: right;
+	display: inline;
+	margin-top: 30px;
+	margin-right: -275px;
+}
+
 body {
   padding: 0px;
   margin: 0px;
@@ -38,6 +47,15 @@ h4 {
   font-family: 'Raleway', sans-serif; 
   }
 
+p {
+font-family: 'Raleway', sans-serif; 
+  margin: 20px auto 40px 10px;
+  margin-left: -200px;
+  font-size: 1.55rem; 
+  text-align: left;
+  color: #4C3114; 
+  display: inline-block;
+}
 
 a {
   cursor: pointer; }
