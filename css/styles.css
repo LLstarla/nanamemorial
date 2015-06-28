@@ -1,6 +1,6 @@
 
 img {
-	width: 85%;
+	width: 100%;
 	float: center;
 	display: block;
 	margin: auto;
@@ -11,21 +11,27 @@ body {
   margin: 0px;
   font-family: 'Raleway', sans-serif; }
 
-h1, h2, h4, nav li a {
-  font-family: 'Raleway', sans-serif; }
-
 h1 {
   font-family: 'Niconne', cursive;
-  font-size: 48px;
-  margin-top: 80px;
-  margin-bottom: 10px;
-  color: #aaa; }
+  font-size: 5rem;
+  text-align: center;
+  margin: 75px auto 10px auto;
+  color: #a25150;
+  text-shadow: 2px 2px #fefff1; }
 
 h2 {
-  margin-top: 80px;
-  font-size: 28px; }
+  font-family: 'Raleway', sans-serif; 
+  margin: 20px auto 40px auto;
+  font-size: 1.55rem; 
+  text-align: center;
+  color: #4C3114; }
+
+h3 {
+	font-family: 'Raleway', sans-serif; 
+}
 
 h4 {
+	font-family: 'Raleway', sans-serif; 
   font-size: 20px;
   margin-bottom: 10px; }
 
@@ -37,7 +43,7 @@ ul {
   list-style: none; }
 
 .nav-container {
-  background-color: #fff;
+  background-color: #fefff1;
   width: 100%;
   position: fixed;
   left: 0px; }
@@ -55,7 +61,7 @@ nav {
       font-size: 15px;
       color: #ffa2a1; }
     nav li a.active {
-      color: #e893ba;}
+      color: #a25150;}
     nav li a:hover {
     	color: #e893ba;
     }
