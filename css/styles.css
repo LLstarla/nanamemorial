@@ -9,6 +9,14 @@ dark maroon......#a25150
 
  */
 
+
+
+div.post-field-inner img {
+  visibility: visible;
+  height: 50px;
+  width: 100px;
+}
+
 div.bn-branding {
   height: 10px;
   visibility: hidden;
@@ -40,7 +48,8 @@ img {
 body {
   padding: 0px;
   margin: 0px;
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Raleway', sans-serif;
+  background: url('../img/bg2.png'); }
 
 h1 {
   font-family: 'Niconne', cursive;
@@ -132,8 +141,17 @@ section {
 section:nth-child(odd) {
   background: url('../img/bg2.png');
   color: #fefff1; }
-  section:nth-child(odd) a {
+
+section:nth-child(odd) a {
     color: #fefff1; }
+
+section:nth-of-type(3) {
+  height: 1500px;
+  width: 100%;
+  overflow: visible;
+
+}  
+
 .bottom-link {
   margin-top: 80px;
   font-style: italic; }
