@@ -9,6 +9,17 @@ dark maroon......#a25150
 
  */
 
+div.bn-branding {
+  height: 10px;
+  visibility: hidden;
+}
+
+
+#book img {
+  height: 1px;
+  width: 1px;
+  visibility: hidden;
+}
 
 img {
 	width: 100%;
