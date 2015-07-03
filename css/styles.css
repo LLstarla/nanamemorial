@@ -207,3 +207,15 @@ margin-right: 0px;
   display: inline-block;
   font-style: normal;
 }
+div.counter {
+  font-family: 'Raleway', sans-serif; 
+  font-size: 1.2rem; 
+  color: #4C3114; 
+  margin-bottom: 50px;
+}
+
+div.counter img{
+  width: 50px;
+  height: auto;
+  display: inline;
+}
