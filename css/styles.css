@@ -95,6 +95,7 @@ ul {
   list-style: none; }
 
 .nav-container {
+  z-index: 1000;
   background-color: #fefff1;
   width: 100%;
   position: fixed;
@@ -149,7 +150,6 @@ section:nth-of-type(3) {
   height: 1500px;
   width: 100%;
   overflow: visible;
-
 }  
 
 .bottom-link {
@@ -164,10 +164,17 @@ section:nth-of-type(3) {
 
 /* Photo Album */
 
+div.flickr {
+  width: 950px;
+margin-left: -150px;
+margin-right: 0px;
+}
+
 .flickr-image {
-  width: 700px;
+
+  width: 300px;
   margin: 1% 0.5%;
-  height: 525px;
+  height: 225px;
   display: inline-block;
   background-position:center center;
   background-size: cover;
@@ -184,4 +191,9 @@ section:nth-of-type(3) {
 
 .flickr-image:hover {
   -webkit-filter: none;
+}
+
+.spacey {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
