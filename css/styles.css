@@ -164,37 +164,6 @@ section:nth-of-type(3) {
 .file-data {
   font-size: 14px; }
 
-/* Photo Album */
-
-div.flickr {
-  width: 950px;
-margin-left: -150px;
-margin-right: 0px;
-}
-
-.flickr-image {
-
-  width: 300px;
-  margin: 1% 0.5%;
-  height: 225px;
-  display: inline-block;
-  background-position:center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-bottom:-5px;
-  cursor:pointer;
-  position: relative;
-}
-
-.flickr-image:hover {
-  filter: none;
-  -webkit-filter: none;
-}
-
-.flickr-image:hover {
-  -webkit-filter: none;
-}
-
 .spacey {
   margin-top: 100px;
   margin-bottom: 100px;
@@ -222,13 +191,10 @@ div.counter img{
   display: inline;
 }
 
-.pixs {
-margin-left: -200px;
-margin-right: -200px;
-}
-
-.pixs img {
-  margin: 0.5px;
+.purp {
+  background: url('../img/bg2.png');
+  width: 900px;
+  margin-left: -150px;
 }
 
 
