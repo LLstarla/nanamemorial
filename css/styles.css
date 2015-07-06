@@ -29,12 +29,14 @@ div.bn-branding {
   visibility: hidden;
 }
 
-img {
+#home img {
 	width: 100%;
 	float: center;
 	display: block;
 	margin: auto;
 }
+
+
 
 .biopic {
 	border-radius: 35%;
@@ -219,3 +221,14 @@ div.counter img{
   height: auto;
   display: inline;
 }
+
+.pixs {
+margin-left: -200px;
+margin-right: -200px;
+}
+
+.pixs img {
+  margin: 0.5px;
+}
+
+
